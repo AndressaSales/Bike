@@ -7,11 +7,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from './router/Home.tsx'
 import Register from './router/Register.tsx'
+import ErroPage from './router/ErrorPage.tsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErroPage />,
     children: [
       {
         path: "/",
