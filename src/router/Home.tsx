@@ -1,7 +1,9 @@
 export default function Home(){
     return(
-        <>
-           pág do home
-        </>
+        <div className="container-home">
+            <h1>1° Corrida de Bicicleta</h1>
+            <span>de</span>
+            <h2>Jaboatão dos Guararapes</h2>
+        </div>
     )
 }
