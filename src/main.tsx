@@ -19,12 +19,13 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      {
-        path: "/register",
-        element: <Register/ >
-      }
     ]
   },
+  {
+    path: "/register",
+    element: <Register/ >,
+    errorElement: <ErroPage/>
+  }
 ])
 
 createRoot(document.getElementById('root')!).render(

@@ -1,7 +1,9 @@
+import FormRegister from "../Components/FormRegister";
+
 export default function Register(){
     return(
-        <>
-            pag register
-        </>
+        <main className="container-register">
+            <FormRegister />
+        </main>
     )
 }

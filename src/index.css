@@ -138,6 +138,90 @@ body{
   color: #fff;
 }
 
+.container-register{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url('../src/assets/register-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-register{
+  background-color: transparent;
+  border: 2px solid rgba(255, 255 , 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  width: 430px;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.body-register h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #2196f3;
+}
+
+.box-input{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-input .name{
+  margin-bottom: 20px;
+}
+
+.box-input input{
+  outline: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255 , 255, .2);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-input input::placeholder{
+  color: #fff;
+  padding-left: 7px;
+}
+
+.btn{
+  padding: 20px;
+}
+
+.body-register button{
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.body-register .link{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: #2196f3;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.body-register .link:hover{
+  background-color: #81c9fa;
+}
+
+
 @media (max-width: 800px){
 
   .container-home h1, h2{
@@ -160,5 +244,30 @@ body{
   .about-text p{
     font-size: 15px;
     line-height: 21px;
+  }
+
+  .box-input input::placeholder{
+    font-size: 20px;
+  }
+
+  .box-input input{
+    font-size: 20px;
+  }
+
+  .body-register{
+    width: 500px;
+    padding: 40px 50px;
+  }
+
+  .body-register button{
+    font-size: 20px;
+  }
+
+  .body-register .link{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #2196f3;
+    padding: 10px 20px;
+    border-radius: 10px;
   }
 }
