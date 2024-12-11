@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function FormRegister(){
     return(
         <form className="body-register">
@@ -11,7 +9,6 @@ export default function FormRegister(){
             <div className="btn">
                 <button>Enviar</button>
             </div>
-            <Link className="link" to={"/"}>Voltar</Link>
         </form>
     )
 }
