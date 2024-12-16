@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom"
 import cyclist from "../assets/cyclist-about.png"
 import { useState } from "react"
-import ModalForm from "./ModalForm"
-import { Box, Modal, Typography } from "@mui/material"
+import { Box, Modal } from "@mui/material"
 import FormRegister from "./FormRegister"
 
 export default function About(){
